@@ -1,0 +1,15 @@
+Rules:
+15 x 15 board
+Each user gets 7 random letters from the bag. The order of players is randomized each game.
+Each round, each player can choose to put a word on the board, exchange a letter, or pass.
+The first player must place their first letter in the center of the board (position 7 7)
+After the first player's first turn, all other words must be connected to at least one letter already on the board.
+Each letter has a given point value, and after each turn, the player accumulates the number of points for each letter they played.
+The symbol '~' represents a free tile. It can be any letter you choose.
+If any letter of a player's word lands on a double word or triple word square (denoted by '^' and '#' respectively), 
+the player's roundscore is doubled or tripled (respectively).
+After each round, the program writes the round scores for all previous and current rounds
+and the total score for each player into PC_PR_scoresheet.txt
+Each new round, the letters used in the previous round are replaced with new random letters. 
+The game continues until the "bag" runs out of letters, or until the players choose to end.
+The player with the highest score at the end of the game wins. 

@@ -1,0 +1,3 @@
+Name    Round 1  Total
+Kush	9		9
+Rose	6		6
